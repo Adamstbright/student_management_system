@@ -1,8 +1,10 @@
 from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QGridLayout, \
     QLineEdit,QPushButton, QMainWindow
 from PyQt6.QtGui import QAction
+import sys
 
 class MainWindow(QMainWindow):
+    def __init__(self):
         super().__init__()
         self.setWindowTitle("Student management system")
 
